@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="256dp"
+    android:height="256dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+
+    <!-- Clip into circular emblem silhouette -->
+    <!-- 1. Deep Green Organic Base -->
+    <path
+        android:pathData="M256,20 A236,236 0 1,1 255.9,20 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="140"
+                android:startY="50"
+                android:endX="380"
+                android:endY="460"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#0F5A35" />
+                <item android:offset="0.4" android:color="#083820" />
+                <item android:offset="1.0" android:color="#031E11" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- 2. Outer Foliage Framing Crescent (Left Arc) -->
+    <path
+        android:pathData="M256,20 C180,20 80,90 40,190 C20,240 25,300 50,340 C40,280 55,200 110,130 C160,70 215,35 256,20 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="40"
+                android:startY="40"
+                android:endX="256"
+                android:endY="340"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#0A4526" />
+                <item android:offset="0.6" android:color="#052816" />
+                <item android:offset="1.0" android:color="#02140A" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- 3. Outer Foliage Framing Crescent (Right Arc with Leafy Winglet) -->
+    <path
+        android:pathData="M256,20 C340,20 440,80 480,180 C505,245 495,310 465,360 C490,290 480,200 425,120 C375,55 315,28 256,20 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="256"
+                android:startY="20"
+                android:endX="490"
+                android:endY="360"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#0D532F" />
+                <item android:offset="0.5" android:color="#073B20" />
+                <item android:offset="1.0" android:color="#02170C" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Right leaf winglet extending along outer contour -->
+    <path
+        android:pathData="M465,360 C495,310 505,245 480,180 C490,225 485,275 450,320 Z"
+        android:fillColor="#15804B" />
+
+    <!-- 4. Top Right Dominant Botanical Leaf -->
+    <path
+        android:pathData="M254,265 C250,220 270,165 310,115 C355,60 410,32 445,40 C448,80 435,145 390,205 C345,265 295,285 254,265 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="245"
+                android:startY="270"
+                android:endX="445"
+                android:endY="40"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#0B4D2C" />
+                <item android:offset="0.3" android:color="#147A46" />
+                <item android:offset="0.7" android:color="#1F9E5C" />
+                <item android:offset="1.0" android:color="#0E5E36" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Leaf Specular Highlight Texture (Top-Right) -->
+    <path
+        android:pathData="M275,230 C290,170 330,110 385,70 C420,50 435,55 435,70 C410,120 370,180 320,230 C295,250 280,245 275,230 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="320"
+                android:startY="160"
+                android:endX="435"
+                android:endY="60"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#4D66D896" />
+                <item android:offset="0.65" android:color="#1A239657" />
+                <item android:offset="1.0" android:color="#00000000" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- 5. Center Upright Botanical Leaf -->
+    <path
+        android:pathData="M252,275 C242,225 240,165 248,115 C252,90 256,70 258,72 C262,95 270,145 268,205 C266,245 260,270 252,275 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="250"
+                android:startY="275"
+                android:endX="260"
+                android:endY="70"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#0D532F" />
+                <item android:offset="0.5" android:color="#239657" />
+                <item android:offset="1.0" android:color="#3CD07E" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- 6. Left Curved Lanceolate Leaf -->
+    <path
+        android:pathData="M250,270 C220,250 165,220 125,185 C95,155 92,130 96,132 C115,145 155,175 195,215 C225,245 245,265 250,270 Z"
+        android:fillColor="#1B874C" />
+    <path
+        android:pathData="M250,270 C210,235 150,195 105,155 C92,142 90,135 96,132 C125,125 175,155 220,205 C240,230 248,255 250,270 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="250"
+                android:startY="270"
+                android:endX="95"
+                android:endY="130"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#0D4F2D" />
+                <item android:offset="0.55" android:color="#1E8B4F" />
+                <item android:offset="1.0" android:color="#32B369" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- 7. Lower Horizon Deep Soil Base (Dark Loam Layer) -->
+    <path
+        android:pathData="M20,256 C20,386 125,492 256,492 C387,492 492,386 492,256 C460,330 380,360 300,345 C220,330 140,310 20,256 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="120"
+                android:startY="330"
+                android:endX="380"
+                android:endY="492"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#441C0C" />
+                <item android:offset="0.5" android:color="#270F06" />
+                <item android:offset="1.0" android:color="#140602" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- 8. Warm Terracotta / Copper Layer Wave -->
+    <path
+        android:pathData="M20,260 C60,290 140,315 220,330 C300,345 390,325 492,256 C492,330 440,430 360,470 C280,485 180,465 100,420 C50,380 25,320 20,260 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="80"
+                android:startY="270"
+                android:endX="420"
+                android:endY="450"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#782E0C" />
+                <item android:offset="0.35" android:color="#A54B1A" />
+                <item android:offset="0.65" android:color="#D16E28" />
+                <item android:offset="0.85" android:color="#B3561A" />
+                <item android:offset="1.0" android:color="#642408" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- 9. Secondary Organic Loam Ripple Texture -->
+    <path
+        android:fillColor="#2D1106"
+        android:pathData="M60,320 C140,370 260,380 370,350 C420,335 460,305 485,275 C450,360 380,430 300,455 C200,465 110,410 60,320 Z" />
+
+    <!-- 10. Crisp White Negative-Space Plant Stems & Veins -->
+    <!-- Left Leaf Vein -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M256,285 C250,235 215,190 150,140 C125,120 100,130 96,134 C105,145 135,175 175,215 C215,255 245,280 256,285 Z" />
+
+    <!-- Center Upright Leaf Vein Spine -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M256,285 C256,210 258,140 256,80 C258,80 262,130 265,190 C268,230 266,270 256,285 Z" />
+
+    <!-- Right Sweeping Vein & Separation -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M256,285 C270,240 310,180 365,125 C410,80 440,48 443,44 C440,55 410,110 360,180 C315,245 275,275 256,285 Z" />
+
+    <!-- Central Vertical Stem plunging from Leaves into Soil and letters -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M252,275 L260,275 L259,340 L253,340 Z" />
+
+    <!-- 11. White Typography Cutouts in Soil Horizon ("NUTRIX") -->
+    <!-- Left Boundary & 'N' -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M65,285 C72,315 76,355 78,415 L90,415 C88,358 84,320 76,285 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M76,290 L136,395 L136,305 L148,305 L148,422 L132,422 L72,315 Z" />
+
+    <!-- 'U' Bowl & Stems -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M160,315 L172,315 L172,392 C172,416 185,426 202,426 C218,426 230,416 230,392 L230,315 L242,315 L242,394 C242,424 224,438 202,438 C178,438 160,424 160,394 Z" />
+
+    <!-- 'T' Crossbar and Center Column connecting to Central Root -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M242,330 L298,330 L298,342 L274,342 L274,440 C274,468 264,486 250,490 C253,483 262,465 262,440 L262,342 L242,342 Z" />
+
+    <!-- 'R' (Artistic Devanagari/Latin Fusion with Upper Loop & Curved Tail) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M304,335 L346,335 C366,335 378,348 378,364 C378,380 366,392 346,392 L316,392 L316,435 L304,435 Z M316,347 L316,380 L343,380 C356,380 364,374 364,364 C364,354 356,347 343,347 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M338,389 L374,440 L390,440 L350,387 Z" />
+
+    <!-- 'I' Column -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M388,338 L400,338 L400,438 L388,438 Z" />
+
+    <!-- 'X' Intersecting Strokes -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M410,340 L466,438 L452,438 L398,340 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M399,436 L458,340 L470,340 L412,436 Z" />
+
+    <!-- 12. Fine Outer Emblem Border Ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#041E11"
+        android:strokeWidth="6"
+        android:pathData="M256,23 A233,233 0 1,1 255.9,23 Z" />
+</vector>

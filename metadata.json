@@ -1,0 +1,8 @@
+{
+  "name": "NUTRIX",
+  "description": "Nutrient Monitoring & Intelligence Exchange System for AIoT-Based Soil Analysis",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

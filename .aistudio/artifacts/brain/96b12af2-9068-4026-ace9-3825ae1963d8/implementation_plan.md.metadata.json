@@ -1,0 +1,6 @@
+{
+  "summary":  "Implementation plan for renaming all project occurrences of SoilSmart to NUTRIX across applicationId, package structure (com.nutrix), navigation, theme, UI text, and test files while preserving fonts and cloud telemetry.",
+  "updatedAt":  "2026-10-23T20:33:01.244800160Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}
